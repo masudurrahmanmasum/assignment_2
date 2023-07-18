@@ -1,0 +1,123 @@
+/* primary style section start */
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #FF42A5;
+    --main-font: 'Work Sans', sans-serif;
+}
+  
+.primary_btn{
+    padding: 14px 30px;
+    background: var(--main-color);
+    font-family: var(--main-font);
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* header section style start */
+header {
+    background: #fff;
+    height: 80px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font);
+}
+.navigation_serction, .main_hero_section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_logo a {
+    text-decoration: none;
+    display: flex;
+    color: #000;
+}
+.nav_logo a span{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5px;
+}
+.nav_list, .nav_list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_list ul li{
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.nav_icon{
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_youtube{
+    color: #FF0000;
+}
+
+/* Hero section style start */
+
+.left_hero_sec, .right_hero_sec{
+    flex-basis: 50%;
+}
+.left_hero_sec h2{
+    color: #0B0223;
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.left_hero_sec h1{
+    font-family: var(--main-font);
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left_hero_sec ul li{
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    color: #534C64;
+    font-family: var(--main-font);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+}
+.hero_btn_div{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.hero_2nd_btn{
+    background: #4EC5F7;
+}
+.right_hero_sec img{
+    width: 100%;
+}
