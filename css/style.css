@@ -59,6 +59,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .nav_list ul li{
     list-style-type: none;
