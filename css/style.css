@@ -19,6 +19,7 @@
     color: #fff;
 }
 
+
 /* header section style start */
 header {
     background: #fff;
@@ -29,7 +30,7 @@ header {
     align-items: center;
     font-family: var(--main-font);
 }
-.navigation_serction, .main_hero_section{
+.navigation_serction, .main_hero_section, .main_we_gamer{
     width: 80%;
     margin: auto;
     display: flex;
@@ -121,4 +122,58 @@ header {
 }
 .right_hero_sec img{
     width: 100%;
+}
+
+/* we are gamer style start */
+.we_gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.left_gamer_sec{
+    flex-basis: 55%;
+}
+.right_gamer_sec{
+    flex-basis: 40%;
+}
+.left_gamer_sec img{
+    width: 100%;
+}
+.right_gamer_sec h2{
+    text-align: right;
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;    
+}
+.right_gamer_sec p{
+    color: #534C64;
+    text-align: right;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.gamer_btn{
+    text-align: right;
+    margin: 12px 0;
+}
+.right_gamer_sec span {
+    color: #534C64;
+    text-align: right;
+    font-family: var(--main-font);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 45px;
+    display: block;
+}
+.right_gamer_sec h4 {
+    color: #534C64;
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: -5px;
 }

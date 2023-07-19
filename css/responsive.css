@@ -1,9 +1,17 @@
 /* for mobile device */
 @media screen and (max-width: 576px){
+    /* navigation section responsive style */
    .navigation_serction, .main_hero_section {
     padding-top: 25px;
     flex-direction: column;
 }
+.nav_list, .nav_list ul {
+    margin-top: 10px;
+}
+.nav_icon {
+    margin-top: 20px;
+}
+/* hero section responsive style */
 .main_hero_section {
     flex-direction: column-reverse;
 }
@@ -20,15 +28,21 @@
 .right_hero_sec{
     margin-top: 90px;
 }
-.nav_list, .nav_list ul {
-    margin-top: 10px;
+/* we are gamer section responsive style start */
+.main_we_gamer{
+    flex-direction: column;
+    margin-top: 50px;
 }
-.nav_icon {
-    margin-top: 20px;
+.right_gamer_sec h2, .right_gamer_sec p, .right_gamer_sec span, .right_gamer_sec h4, .gamer_btn{
+    text-align: center;
+}
+.right_gamer_sec h4{
+    font-size: 20px;
 }
 }
 /* for tablet device */
 @media screen and (max-width: 900px) and (min-width: 576px){
+    /* navigation section responsive style */
     .navigation_serction, .main_hero_section {
         padding-top: 25px;
         flex-direction: column;
@@ -36,6 +50,7 @@
     .nav_list{
         margin-top: 30px;
     }
+    /* hero section responsive styele */
     .main_hero_section {
         flex-direction: column-reverse;
     }
@@ -44,5 +59,13 @@
     }
     .right_hero_sec{
         margin-top: 70px;
+    }
+    /* we are gamer section responsive style start */
+    .main_we_gamer{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .right_gamer_sec h2, .right_gamer_sec p, .right_gamer_sec span, .right_gamer_sec h4, .gamer_btn{
+        text-align: center;
     }
 }
