@@ -333,9 +333,11 @@ header {
 .main_footer_sec{
     background: #0B0223;
     font-family: var(--main-font);
-    line-height: 4;
     padding: 50px 0;
     margin-top: 100px;
+}
+.footer_icon, .last_footer_list, .footer_list{
+    line-height: 4;
 }
 .footer_logo, .footer_list{
     padding: 15px 0;
@@ -371,4 +373,5 @@ header {
     font-size: 17px;
     text-align: center;
     display: block;
+    margin-top: 30px;
 }
