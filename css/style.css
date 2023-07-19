@@ -97,7 +97,7 @@ header {
     font-size: 80px;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -229,8 +229,9 @@ header {
     align-items: center;
     position: absolute;
     top: 0;
-    border-radius: 15px;
+    border-radius: 13px;
     visibility: hidden;
+    border: 2px solid #F948B2;
 }
 .game_card_hover i, .game_card_hover span{
     display: block;
@@ -295,4 +296,79 @@ header {
     top: 238px;
     left: -150px;
     height: 80%;
+}
+
+/* icon library style start */
+#icon_library{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 80px;
+}
+.main_icon_sec {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 25px;
+}
+.icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--main-font);
+    border: 2px solid #fff;
+}
+.icon_div:hover {
+    border: 2px solid #F948B2;
+    border-radius: 20px;
+}
+.icon_div img{
+    width: 20%;
+}
+
+/* footer section style strt */
+.main_footer_sec{
+    background: #0B0223;
+    font-family: var(--main-font);
+    line-height: 4;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+.footer_logo, .footer_list{
+    padding: 15px 0;
+}
+.footer_logo a span{
+    color: #fff;
+}
+.footer_list, .footer_icon, .last_footer_list{
+    width: 80%;
+    margin: auto;
+}
+.footer_list, .footer_icon, .last_footer_list{
+    display: flex;
+    justify-content: center;
+}
+.footer_list ul li, .footer_icon ul li{
+    color: #fff;
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.last_footer_list ul li{
+    color: rgba(255, 255, 255, 0.60);
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+    font-size: 17px;
+}
+.copyright span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 17px;
+    text-align: center;
+    display: block;
 }

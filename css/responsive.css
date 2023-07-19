@@ -77,6 +77,15 @@
 .right_play_instant{
     margin-top: -20px;
 }
+.play_instant_section {
+    height: 530px;
+}
+/* icon library section responsive style */
+.main_icon_sec {
+    justify-content: initial;
+    padding-top: 15px;
+}
+
 
 }
 
@@ -140,5 +149,11 @@
     }
     .right_play_instant{
         margin-top: 50px;
+    }
+
+    /* icon library responsive section start */
+    .main_icon_sec {
+        justify-content: space-between;
+        padding-top: 50px;
     }
 }
