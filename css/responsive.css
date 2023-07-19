@@ -39,7 +39,27 @@
 .right_gamer_sec h4{
     font-size: 20px;
 }
+
+/* online game responsive section style */
+.sectin_title h2{
+    font-size: 30px;
+    font-weight: 600;
 }
+.game_card_container{
+    flex-direction: column;
+}
+.single_card{
+    margin-top: 40px;
+}
+.single_card p{
+    display: block;
+    text-align: center;
+}
+
+}
+
+
+
 /* for tablet device */
 @media screen and (max-width: 900px) and (min-width: 576px){
     /* navigation section responsive style */
@@ -68,4 +88,17 @@
     .right_gamer_sec h2, .right_gamer_sec p, .right_gamer_sec span, .right_gamer_sec h4, .gamer_btn{
         text-align: center;
     }
+
+    /* online game responsive section style */
+    .game_card_container{
+        flex-direction: column;
+    }
+    .single_card{
+        margin-top: 50px;
+    }
+    .single_card p{
+        display: block;
+        text-align: center;
+    }
+
 }
